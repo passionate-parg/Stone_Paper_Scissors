@@ -1,0 +1,96 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choices {
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stone{
+    height: 200px;
+    width: 350px;
+    background-image: url("rock.png");
+    background-size: cover;
+    margin: 5px;
+}
+
+#paper{
+    height: 200px;
+    width: 350px;
+    background-image: url("paper.png");
+    background-size: cover;
+    margin:5px;
+}
+
+#scissors{
+    height: 200px;
+    width: 350px;
+    background-image: url("scissors.png");
+    background-size: cover;
+    margin: 5px;
+}
+
+.score-board{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user{
+    position: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.computer{
+    position: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-size: 25px;
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+
+#stone:hover{
+    opacity: 0.8;
+    border: 1px solid rgb(31, 29, 29);
+    cursor: pointer;
+}
+#paper:hover{
+    opacity: 0.8;
+    border: 1px solid rgb(31, 29, 29);
+    cursor: pointer;
+}
+#scissors:hover{
+    opacity: 0.8;
+    border: 1px solid rgb(31, 29, 29);
+    cursor: pointer;
+}
