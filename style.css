@@ -21,24 +21,24 @@ h1 {
 }
 
 #stone{
-    height: 200px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     background-image: url("rock.png");
     background-size: auto;
     margin: 5px;
 }
 
 #paper{
-    height: 200px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     background-image: url("paper.png");
     background-size: auto;
     margin:5px;
 }
 
 #scissors{
-    height: 200px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     background-image: url("scissors.png");
     background-size: auto;
     margin: 5px;
